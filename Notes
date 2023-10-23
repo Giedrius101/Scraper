@@ -1,0 +1,30 @@
+WebElement el = driver.findElement(By.xpath("//button[@class='c-btn--secondary h-btn--small']"));
+
+
+
+//		DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
+//		 
+//        DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
+//
+//        Document document = documentBuilder.newDocument();
+//		
+//		TransformerFactory transformerFactory = TransformerFactory.newInstance();
+//        Transformer transformer = transformerFactory.newTransformer();
+//        DOMSource domSource = new DOMSource(document);
+//        StreamResult streamResult = new StreamResult(new File(xmlFilePath));
+
+
+	public void syncWait(int t) {
+		
+		synchronized(driver) { 
+			try {
+				driver.wait(t);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	
+	By.xpath("//a[contains(@class,'s-is-active')]")
