@@ -28,3 +28,5 @@ WebElement el = driver.findElement(By.xpath("//button[@class='c-btn--secondary h
 	}
 	
 	By.xpath("//a[contains(@class,'s-is-active')]")
+	
+	ItemInfo tempItem = <<instanceOfPiguLt>>.new ItemInfo(); works for non-static nested class

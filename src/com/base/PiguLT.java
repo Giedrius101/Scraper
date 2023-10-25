@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
@@ -24,12 +25,12 @@ public class PiguLT {
 	public PageNavigationBar pageNavBar;
 	public ProductListView productListView;
 	
-	class ItemInfo {
+	static class ItemInfo {
 			public String name;
 			public String price;
 	}
 	
-	class GetOptions {
+	static class GetOptions {
 			public boolean name;
 			public boolean price;
 	}
@@ -91,7 +92,12 @@ public class PiguLT {
 			String eur;
 			String eurocents;
 			
-			priceContainer = elContainer.findElement(By.xpath(".//div[@class='product-price']/span[@class='price notranslate ']"));
+			try {
+				priceContainer = elContainer.findElement(By.xpath(".//div[@class='product-price']/span[@class='price notranslate ']"));
+			} catch (NoSuchElementException e) {
+				priceContainer = elContainer.findElement(By.xpath(".//div[@class='product-price']/span[@class='price notranslate discount-price']"));
+			}
+			
 			eur = ((JavascriptExecutor) driver).executeScript("return arguments[0].firstChild.textContent", priceContainer).toString();
 			eur = eur.trim();
 			

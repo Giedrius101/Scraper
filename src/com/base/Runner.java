@@ -72,12 +72,22 @@ public class Runner {
 		System.out.println(pigu.pageNavBar.getCurrentPageIndex());
 		pigu.pageNavBar.clickPrevPage();
 		
+		try {
+			// Wait for cookies approve request for 3 sec.
+			//helper.waitUntil(() -> driver.findElement(By.xpath("//button[@widget-attachpoint='agree']")), 3);
+			//pigu.ClickAgreeCookies();
+			driver.findElement(By.xpath("//button[@widget-attachpoint='agree']"));
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			System.out.print("here");
+			// if no cookies approve required, do nothing.
+		}
 		//List<WebElement> items = driver.findElements(By.xpath("//div[@class='api product-list-item tag-top']"));
 		
-//		XMLEditor xed = new XMLEditor();
-//		xed.createFile("test", true);
-//		xed.addItemToRootElement(xed.createItemElement("Asus", "900"));
-//		xed.writeToXMLFile();
+		XMLEditor xed = new XMLEditor();
+		xed.createFile("test", true);
+		xed.addItemToRootElement(xed.createItemElement("Asus", "900"));
+		xed.addItemToRootElement(xed.createItemElement("Lenovo", "200"));
+		xed.writeToXMLFile();
 		
 	}
 

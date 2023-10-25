@@ -67,7 +67,7 @@ public class Scraper {
 		JButton scrapeBtn = new JButton("Scrape");
 		scrapeBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				logic.scrapeToFile(null);
+				logic.scrapeToFile(websiteURLTextField.getText(), XMLFileNameTextField.getText());
 			}
 		});
 		scrapeBtn.setBounds(414, 312, 129, 24);
