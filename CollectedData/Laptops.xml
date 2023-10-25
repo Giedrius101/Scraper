@@ -25,12 +25,12 @@
         <Price currency="EUR">335.00</Price>
     </Item>
     <Item>
-        <Name>Lenovo IdeaPad 3 15ALC6 Arctic Grey, 15.6" FHD IPS, Ryzen 3 5300U, 8GB, 512GB SSD</Name>
-        <Price currency="EUR">369.00</Price>
-    </Item>
-    <Item>
         <Name>HP 255 G9 Ryzen 3 5425U / 8 GB / 256 GB (6S6F7EA) 6S6F7EAAKD</Name>
         <Price currency="EUR">331.00</Price>
+    </Item>
+    <Item>
+        <Name>Lenovo IdeaPad 3 15ALC6 Arctic Grey, 15.6" FHD IPS, Ryzen 3 5300U, 8GB, 512GB SSD</Name>
+        <Price currency="EUR">369.00</Price>
     </Item>
     <Item>
         <Name>Lenovo IdeaPad 3 15ITL6 i5-1135G7 15.6" FHD IPS 300nits AG 8GB DDR4 3200 SSD512 Intel Iris Xe Graphics WLAN+BT NoOS Arctic Grey</Name>
@@ -53,12 +53,20 @@
         <Price currency="EUR">1 349.00</Price>
     </Item>
     <Item>
-        <Name>Apple MacBook Air 13” M1 8C CPU, 7C 8/256GB Space Grey RUS MGN63RU/A</Name>
-        <Price currency="EUR">1 039.00</Price>
+        <Name>Lenovo IdeaPad 3 15ABA7 Ryzen 5 5625U 15.6" FHD IPS 300nits AG 8GB DDR4 3200 SSD512 AMD Radeon Graphics NoOS Arctic Grey</Name>
+        <Price currency="EUR">501.13</Price>
+    </Item>
+    <Item>
+        <Name>ASUS ROG Strix Scar 90NR0D31-M001C0</Name>
+        <Price currency="EUR">3 428.00</Price>
     </Item>
     <Item>
         <Name>HP 8470p</Name>
         <Price currency="EUR">235.00</Price>
+    </Item>
+    <Item>
+        <Name>Asus X515JA-BQ2625W, i3-1005G1, 15.6" FHD, 8 GB DDR4-SDRAM, 256 GB SSD, Windows 11 Home S, Silver</Name>
+        <Price currency="EUR">524.78</Price>
     </Item>
     <Item>
         <Name>Lenovo ThinkPad Yoga 11e 6th Gen (20SES00D00)</Name>
@@ -73,14 +81,6 @@
         <Price currency="EUR">1 000.00</Price>
     </Item>
     <Item>
-        <Name>Apple MacBook Pro 16" M1 Pro 16/1TB Space Gray SWE MK193KS/A</Name>
-        <Price currency="EUR">2 033.00</Price>
-    </Item>
-    <Item>
-        <Name>Asus X515JA-BQ2625W, i3-1005G1, 15.6" FHD, 8 GB DDR4-SDRAM, 256 GB SSD, Windows 11 Home S, Silver</Name>
-        <Price currency="EUR">524.78</Price>
-    </Item>
-    <Item>
         <Name>Lenovo IdeaPad 3 15ITL6 i3-1115G4 15.6" FHD 8/512GB Win11 Arctic Grey 82H801QQPB</Name>
         <Price currency="EUR">439.00</Price>
     </Item>
@@ -89,12 +89,20 @@
         <Price currency="EUR">1 159.99</Price>
     </Item>
     <Item>
+        <Name>Apple MacBook Air 13” M1 8C CPU, 7C 8/256GB Space Grey RUS MGN63RU/A</Name>
+        <Price currency="EUR">1 039.00</Price>
+    </Item>
+    <Item>
         <Name>Asus Vivobook Go 15 OLED (E1504FA-BQ251W)</Name>
         <Price currency="EUR">557.00</Price>
     </Item>
     <Item>
         <Name>Asus A516MA</Name>
         <Price currency="EUR">379.99</Price>
+    </Item>
+    <Item>
+        <Name>Apple MacBook Pro 16" M1 Pro 16/1TB Space Gray SWE MK193KS/A</Name>
+        <Price currency="EUR">2 033.00</Price>
     </Item>
     <Item>
         <Name>Dell Latitude 5570 i5-6440HQ 15.6" 8GB 128GB SSD WIN10P</Name>
@@ -106,7 +114,7 @@
     </Item>
     <Item>
         <Name>Hewlett-Packard 597A5EA_16</Name>
-        <Price currency="EUR">425.88</Price>
+        <Price currency="EUR">425.46</Price>
     </Item>
     <Item>
         <Name>Lenovo V15 82KD008NMH</Name>
@@ -114,7 +122,7 @@
     </Item>
     <Item>
         <Name>Lenovo 82LN00HMPB</Name>
-        <Price currency="EUR">496.23</Price>
+        <Price currency="EUR">497.51</Price>
     </Item>
     <Item>
         <Name>HP ProBook 440 G7 i5-10210U|8GB|256 GB|NVIDIA GeForce MX130|Windows 11 PRO|Atnaujintas/Renew</Name>
@@ -141,16 +149,8 @@
         <Price currency="EUR">1 039.00</Price>
     </Item>
     <Item>
-        <Name>Asus ROG Strix G17 G713 2023 (G713PI-LL032W)</Name>
-        <Price currency="EUR">2 458.00</Price>
-    </Item>
-    <Item>
         <Name>Asus Vivobook 16 M1605YA-MB242W</Name>
         <Price currency="EUR">733.00</Price>
-    </Item>
-    <Item>
-        <Name>Asus ExpertBook B7 Flip B7402FVA-P60063X</Name>
-        <Price currency="EUR">1 352.00</Price>
     </Item>
     <Item>
         <Name>Lenovo Yoga Slim 7 Pro 14IHU5</Name>
@@ -159,6 +159,10 @@
     <Item>
         <Name>Apple MacBook Pro 14" M1 Pro 16/1TB Space Gray SWE MKGQ3KS/A</Name>
         <Price currency="EUR">2 061.30</Price>
+    </Item>
+    <Item>
+        <Name>MacBook Pro 16" Apple M2 Pro, 16GB/512GB, Space Gray, INT, MNW83ZE/A</Name>
+        <Price currency="EUR">3 099.00</Price>
     </Item>
     <Item>
         <Name>HP 15S-EQ2704NW 4H388EA</Name>
@@ -173,12 +177,20 @@
         <Price currency="EUR">894.00</Price>
     </Item>
     <Item>
+        <Name>Asus ROG Strix G17 G713 2023 (G713PI-LL032W)</Name>
+        <Price currency="EUR">2 458.00</Price>
+    </Item>
+    <Item>
         <Name>Asus Vivobook 15 OLED (X1505VA-MA081W)</Name>
         <Price currency="EUR">839.00</Price>
     </Item>
     <Item>
+        <Name>Asus ExpertBook B7 Flip B7402FVA-P60063X</Name>
+        <Price currency="EUR">1 352.00</Price>
+    </Item>
+    <Item>
         <Name>HP 15s-eq2152nw</Name>
-        <Price currency="EUR">398.10</Price>
+        <Price currency="EUR">397.70</Price>
     </Item>
     <Item>
         <Name>Lenovo IdeaPad 3 15ALC6 15.6" Ryzen 5 8/512GB ENG W11Home 82KU018FPB</Name>
@@ -186,19 +198,19 @@
     </Item>
     <Item>
         <Name>Asus ROG Strix G17 G713 2023 (G713PV-LL030W)</Name>
-        <Price currency="EUR">2 561.40</Price>
+        <Price currency="EUR">2 452.04</Price>
     </Item>
     <Item>
         <Name>Lenovo IdeaPad 1 15AMN7 82VG00FVLT</Name>
         <Price currency="EUR">502.00</Price>
     </Item>
     <Item>
-        <Name>MacBook Air 2017 13" - Core i5 1.8GHz / 8GB / 128GB SSD (Atnaujintas, būklė kaip naujas)</Name>
-        <Price currency="EUR">429.00</Price>
+        <Name>Asus ROG Zephyrus G14 (GA402XI-NC037W)</Name>
+        <Price currency="EUR">2 637.00</Price>
     </Item>
     <Item>
-        <Name>Asus P1412CEA i5-1135G7</Name>
-        <Price currency="EUR">504.00</Price>
+        <Name>MacBook Air 2017 13" - Core i5 1.8GHz / 8GB / 128GB SSD (Atnaujintas, būklė kaip naujas)</Name>
+        <Price currency="EUR">429.00</Price>
     </Item>
     <Item>
         <Name>Lenovo 14'' Ideapad 3 i3-1115G4 8GB 256GB SSD Windows 11</Name>
@@ -209,6 +221,10 @@
         <Price currency="EUR">2 295.00</Price>
     </Item>
     <Item>
+        <Name>Lenovo IdeaPad 1 15AMN7 82VG00FULT</Name>
+        <Price currency="EUR">394.00</Price>
+    </Item>
+    <Item>
         <Name>Apple MacBook Air 13” Apple M2 8/256GB /Silver/RUS MLXY3RU/A</Name>
         <Price currency="EUR">1 349.00</Price>
     </Item>
@@ -217,23 +233,7 @@
         <Price currency="EUR">725.00</Price>
     </Item>
     <Item>
-        <Name>Dell G15 5530, i5-13450HX, 16GB, 512SSD, Win11H</Name>
-        <Price currency="EUR">1 298.00</Price>
-    </Item>
-    <Item>
         <Name>HP 820 G3</Name>
         <Price currency="EUR">268.00</Price>
-    </Item>
-    <Item>
-        <Name>Dell Vostro 15 3530</Name>
-        <Price currency="EUR">976.00</Price>
-    </Item>
-    <Item>
-        <Name>Acer Nitro AN517-55-54KQ</Name>
-        <Price currency="EUR">1 348.00</Price>
-    </Item>
-    <Item>
-        <Name>Dell 5480</Name>
-        <Price currency="EUR">429.00</Price>
     </Item>
 </Products>

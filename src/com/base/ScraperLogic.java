@@ -45,7 +45,7 @@ public class ScraperLogic {
 	    
 	    
 	    driver = new ChromeDriver(options);	
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(100));
 		
 		helper = new Helper(driver);
 		
@@ -84,6 +84,7 @@ public class ScraperLogic {
 			tempItem = new ItemInfo();
 			tempItem.name = pigu.productListView.getItemName(itemContainer);
 			tempItem.price = pigu.productListView.getItemPrice(itemContainer);
+			System.out.println(tempItem.price);
 			
 			itemList.add(tempItem);
 		}
